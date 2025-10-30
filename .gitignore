@@ -1,11 +1,36 @@
-venv/ 
-__pycache__/ 
-*.pyc 
-*.pkl 
-*.mp4 
-*.avi 
-data/* 
-!data/.gitkeep 
-models/* 
-!models/.gitkeep 
-token.txt 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.log
+
+# Virtual environment
+venv/
+.env/
+.env
+
+# Data and models
+data/
+models/
+checkpoints/
+outputs/
+*.h5
+*.pt
+*.pth
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
